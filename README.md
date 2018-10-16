@@ -68,3 +68,4 @@ Nursery
 * Note that can only be read in a mirror
 * If you breathe on a mirror words show up
 * Object with opaque liquid inside. Give option to drain it to reveal an item at the bottom.
+* There is a door that is only visible when the light is off because you can see the light coming in through the cracks
