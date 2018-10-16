@@ -23,11 +23,48 @@ Second Floor:
 ## Room Contents:
 
 Lobby
-Kitchen
-Bathroom
-Bedroom
-Nursery
+* Coat rack
+ * Coat with note in pocket
+* Chest of drawers
+ * Torch
+* Photo Frame
+* Big staircase
+ * Creaky step that has hidden compartment underneath
+* Statues that are missing an item e.g. an eye 
+* Ornate chair
 
+Kitchen
+* Counter
+* Fridge
+* Oven
+* Cupboards
+* Pots and pans hanging 
+* Locked drawer
+
+Bathroom
+* Bath tub
+* Sink
+* Toilet
+* Cabinet- perfume, toiletries inside
+
+Bedroom
+* 4 poster canopy bed
+* Wardrobe
+* Window (locked)
+* Vanity table
+* Writing desk (may move this to a study room)
+
+Nursery
+* Cot
+* Children's toys
+* Rocking horse
+* Building blocks
+* Creepy doll
 
 ## Puzzle ideas:
 
+* Option to turn lights on or off to reveal glow-in-the dark paint
+* Option to sit down on chairs- may break and reveal something
+* Note that can only be read in a mirror
+* If you breathe on a mirror words show up
+* Object with opaque liquid inside. Give option to drain it to reveal an item at the bottom.
