@@ -9,8 +9,8 @@ room_lobby = {
 
 }
 
-room_2 = {
-    'name': '',
+room_kitchen = {
+    'name': 'Kitchen',
 
     'description': '',
 
@@ -19,8 +19,8 @@ room_2 = {
 
 }
 
-room_3 = {
-    'name': '',
+room_bathroom = {
+    'name': 'Bathroom',
 
     'description': '',
 
@@ -28,8 +28,8 @@ room_3 = {
 
 }
 
-room_4 = {
-    'name': '',
+room_nursery = {
+    'name': 'Nursery',
 
     'description': '',
 
@@ -37,8 +37,8 @@ room_4 = {
 
 }
 
-room_5 = {
-    'name': '',
+room_bedroom = {
+    'name': 'Bedroom',
 
     'description': '',
 
@@ -49,8 +49,8 @@ room_5 = {
 rooms_id = {
     'lobby': room_lobby,
     # a, b, c and d are placeholders for the room names
-    'a': room_2,
-    'b': room_3,
-    'c': room_4,
-    'd': room_5,
+    'kitchen': room_kitchen,
+    'bathroom': room_bathroom,
+    'nursery': room_nursery,
+    'bedroom': room_bedroom,
 }
