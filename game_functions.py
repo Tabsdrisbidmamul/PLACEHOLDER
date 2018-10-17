@@ -4,6 +4,7 @@ import game_content as gc    # game_content is referred as 'gc'
 import player
 import items
 from main import current_dialogue, current_room    # global variables to update
+import string
 
 
 def print_room(room):
@@ -19,13 +20,15 @@ def print_dialogue(dialogue):
     print(dialogue.upper())
     print()
 
-def move(direction):
-    if direction in rooms[exits]:
-        return rooms[exits[direction]]["name"]
-    if direction in rooms[exits]:
-        return rooms[exits[direction]]["name"]
- 
-        
+
+def exit_leads_to(exits, direction):
+    """This will take a dictionary of exits, and a direction from the user"""
+    return rooms.rooms_id[exits[direction]]['name']
+
+
+def move(exits, direction):
+    return rooms.rooms_id[exits[direction]]
+
 
 def print_room_items(room):
     """Will take room item(s) as an argument, and will output them properly"""
@@ -43,13 +46,39 @@ def print_inventory(inventory):
         store_string = store_string + value['name'] + ', '
     print('You have: ' + store_string)
 
+
+def remove_whitespace(text):
+    """will remove beginning and trailing whitespace from input"""
+    return text.strip()
+
+
+def remove_punct(text):
+    """will remove all forms of punctuation that is in the text"""
+    punctuation = string.punctuation
+    for letter in text:
+        if letter in punctuation:
+            text = text.replace(letter, '')
+    return text
+
+
+def normal_input(user_input):
+    """Will take the user input and firstly remove punctuation, then the
+    whitespace and then lastly return it as a list, so it can therefore be
+    processed in execute command"""
+    user_input = remove_punct(user_input)
+    user_input = remove_whitespace(user_input)
+    normal_lst = user_input.split()
+    return normal_lst
+
+
     
+
 def riddle_1():
-    x= input("I'm tall when I'm young and I'm short when I'm old. What am I?")
+    x = input("I'm tall when I'm young and I'm short when I'm old. What am I?")
     if x == ("candle") or ("a candle"):
-        take(x)
+        take()
         
-def take(X):
+def take():
     #take key and display:
     
     print("")
