@@ -3,6 +3,15 @@ item_note = {
 
     'name': 'bloody note',
 
+    'Title' :
+     """
+        ____________________________________
+        \______   \   \_   _____/\__    ___/
+         |       _/   ||    __)    |    |   
+         |    |   \   ||     \     |    |   
+         |____|_  /___|\___  /     |____|   
+                \/         \/""",          
+
     'riddle_1': 'placeholder_riddle_1',
 
     'riddle_2': 'placeholder_riddle_2',
