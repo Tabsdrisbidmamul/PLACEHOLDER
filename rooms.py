@@ -1,11 +1,13 @@
 # all room details are in this file
 # room details have to be filled in
+
+import items
 room_lobby = {
     'name': 'Main Lobby',
 
     'description': 'the main landing of the house',
 
-    'items': [],
+    'items': [items.item1],
 
 }
 
@@ -48,7 +50,6 @@ room_bedroom = {
 
 rooms_id = {
     'lobby': room_lobby,
-    # a, b, c and d are placeholders for the room names
     'kitchen': room_kitchen,
     'bathroom': room_bathroom,
     'nursery': room_nursery,

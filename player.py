@@ -1,2 +1,3 @@
 # all player details are placed in this file
-inventory = []
+import items
+inventory = [items.item1, items.item2, ]
