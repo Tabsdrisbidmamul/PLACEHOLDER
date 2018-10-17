@@ -70,8 +70,42 @@ def normal_input(user_input):
     normal_lst = user_input.split()
     return normal_lst
 
+def exe_go(user_input_command):
+    pass
 
-    
+def exe_take(user_input_command):
+    pass
+
+def exe_solve_riddle(user_input_command):
+    pass
+
+
+def exe_command(user_input_lst):
+    """function that will call either will go, take or solve riddle"""
+    if len(user_input_lst) == 0:
+        return None
+
+    if user_input_lst[0] == 'go':
+        if len(user_input_lst) > 1:
+            exe_go(user_input_lst[1])
+        else:
+            print('Go to which room?')
+
+    elif user_input_lst[0] == 'take':
+        if len(user_input_lst) > 1:
+            exe_take(user_input_lst[1])
+        else:
+            print('Take which item?')
+
+    elif user_input_lst[0] == 'solve':
+        if len(user_input_lst) > 1:
+            exe_solve_riddle(user_input_lst[1])
+        else:
+            print('Your answer to your the riddle?')
+
+    else:
+        print('What are you doing?')
+
 
 def riddle_1():
     x = input("I'm tall when I'm young and I'm short when I'm old. What am I?")
@@ -82,15 +116,21 @@ def take():
     #take key and display:
     
     print("")
-    print("     ")
-    print("                    :+o+:`                                 ")    
-    print("                 `dy:.-sm.                                 ")   
-    print("              ./osM:   -M: `                               ")   
-    print("             -No--+:sohNNhymy++++++++++++++++++++++++++++++o. ")
-    print("             -No--+:sohNNhymyoooooooooooooooooooohhdMMMdhhos. ")
-    print("              ./+sM:   -M: `                     hNNMMMNNh    ")
-    print("                 `dy:.-sm.                       NMyhMhyMN`   ")
-    print("                   -+o+:`                        ++--+-.oo       ")
+    print("                      :sdmNNNds/`                                                                           ")
+    print("                    -dMNho//oyNMm/                                                                          ")
+    print("                   -NMd-      .yMM/                                                                         ")
+    print("                   oMM:        `MMh                                                                         ")
+    print("             `:oyhhmMMs        :MMy                                                                         ")
+    print("           `omMNdhhmMMm:    .-sNMd--`.oo:                                                                   ")
+    print("           oMMh-   `:+.`sdyomMMMNdNMdmMMMoooooooooooo++++++oooooooooooooooooooooooooooooooooooooooo+-oso.   ")
+    print("           dMM-        /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMh   ")
+    print("           +MMh-`  `:+.`sdyomMMMNdNMdmMMMooooooooooooooooooooosssssssssssssssssssssssssdMMMMMMmyssys/yhs-   ")
+    print("            +mMNdhhmMMm:    .-sNMd--`.oo:                                         yyyyydMMMMMMmyyyyy`       ")
+    print("             `:oyyymMMo        /MMs                                              `dNMMMMMMMMMMMMMMNd`       ")
+    print("                   sMM:        `MMh                                               /dMMMMMMMMMMMMMMd+`       ")
+    print("                   -NMd-      .hMM/                                              `MMMMNyyMMMMyyNMMMM.       ")
+    print("                    -dMNho//ohNMm/                                               `MMMMm  NMMM  dMMMM.       ")
+    print("                      :sdmNNNds/`                                                `mmmmh  dmmm  ymmmm`       ")
     print("")
     print("    ")
     print("   ")
@@ -113,3 +153,4 @@ def print_menu():
         print("TAKE " + values.get('name'))
     for values in player.inventory:
         print("DROP " + values.get('name'))
+
