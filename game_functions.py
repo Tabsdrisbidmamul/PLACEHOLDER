@@ -19,10 +19,11 @@ def print_dialogue(dialogue):
     print(dialogue.upper())
     print()
 
-    
 def move(direction):
-     if direction in rooms[exits]:
-            return rooms[exits[direction]]["name"]
+    if direction in rooms[exits]:
+        return rooms[exits[direction]]["name"]
+    if direction in rooms[exits]:
+        return rooms[exits[direction]]["name"]
  
         
 
@@ -42,6 +43,14 @@ def print_inventory(inventory):
         store_string = store_string + value['name'] + ', '
     print('You have: ' + store_string)
 
+def take(X):
+    #take key and display:
+    
+def riddle_1():
+    x= input("I'm tall when I'm young and I'm short when I'm old. What am I?")
+    if x="candle" or "a candle":
+        take(x)
+        
 def take(X):
     #take key and display:
     
@@ -78,3 +87,11 @@ def take(X):
         
                                                                                                     
     )
+
+def print_menu():
+
+    print("You can:")
+    for values in current_room['items']:
+        print("TAKE " + values.get('name'))
+    for values in player.inventory:
+        print("DROP " + values.get('name'))
