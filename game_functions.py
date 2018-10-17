@@ -52,7 +52,7 @@ def riddle_1():
 def take(X):
     #take key and display:
     
-    print("                                                                                                    
+    print("")                                                              
     print("                      :sdmNNNds/`                                                                           ")
     print("                    -dMNho//oyNMm/                                                                          ")
     print("                   -NMd-      .yMM/                                                                         ")
@@ -82,10 +82,7 @@ def take(X):
     print("           `.     .::-`     -::`         -::.    `-:-`     ..       -----`    `.   .. .----`   -     :`   ")  
         
         
-        
-                                                                                                    
-    )
-
+                                                                                    
 def print_menu():
 
     print("You can:")
