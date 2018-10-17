@@ -41,7 +41,13 @@ def print_inventory(inventory):
             break
         store_string = store_string + value['name'] + ', '
     print('You have: ' + store_string)
-
+    
+def riddle_1():
+    
+    x= input("I'm tall when I'm young and I'm short when I'm old. What am I?")
+    if x="candle" or "a candle":
+        take(x)
+        
 def take(X):
     #take key and display:
     print("                                                                                                    
