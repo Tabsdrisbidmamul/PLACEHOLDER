@@ -42,3 +42,39 @@ def print_inventory(inventory):
         store_string = store_string + value['name'] + ', '
     print('You have: ' + store_string)
 
+def take(X):
+    #take key and display:
+    
+    print(                                                                                                    
+              :sdmNNNds/`                                                                           
+            -dMNho//oyNMm/                                                                          
+           -NMd-      .yMM/                                                                         
+           oMM:        `MMh                                                                         
+     `:oyhhmMMs        :MMy                                                                         
+   `omMNdhhmMMm:    .-sNMd--`.oo:                                                                   
+   oMMh-   `:+.`sdyomMMMNdNMdmMMMoooooooooooo++++++oooooooooooooooooooooooooooooooooooooooo+-oso.   
+   dMM-        /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMh   
+   +MMh-`  `:+.`sdyomMMMNdNMdmMMMooooooooooooooooooooosssssssssssssssssssssssssdMMMMMMmyssys/yhs-   
+    +mMNdhhmMMm:    .-sNMd--`.oo:                                         yyyyydMMMMMMmyyyyy`       
+     `:oyyymMMo        /MMs                                              `dNMMMMMMMMMMMMMMNd`       
+           sMM:        `MMh                                               /dMMMMMMMMMMMMMMd+`       
+           -NMd-      .hMM/                                              `MMMMNyyMMMMyyNMMMM.       
+            -dMNho//ohNMm/                                               `MMMMm  NMMM  dMMMM.       
+              :sdmNNNds/`                                                `mmmmh  dmmm  ymmmm`       
+        
+        
+        
+        
+                                                                                                     
+                                                                                                    
+`:`   :`  -/+/-   --    :`      `://:`   .://-  .//////.     `:.      `:   :` :////`--   --  s.     
+ od` sy .do-.-sd` sy    N:    `yy:..:/  yh-..+m-`.-yh..`    +om+      /m -h+  mo--- -m: :m.  N-     
+  +dsy  sh     m/ sy    N:    +d  .--- :N`    sh   sy         d+      /Nsy`   my++:  .m+m.   N-     
+   sd   sh     N/ sy    N:    +m  .-od :N`    yy   sy         d+      /m:d/   m+``    -M-    m.     
+   oh   .ds:-/hs  -m+-:sh      sh+::yd  sh/-:sh`   sy       -:ds:`    /m `sh. ms:::`  .M`   `o.     
+   `.     .::-`     -::`         -::.    `-:-`     ..       -----`    `.   .. .----`   -     :`     
+        
+        
+        
+                                                                                                    
+    )
