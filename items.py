@@ -1,7 +1,15 @@
-item1 = {
-    'name': 'placeholder1',
+item_note = {
+    'id': 'note',
 
-    'description': 'placeholder2',
+    'name': 'bloody note',
+
+    'riddle_1': 'placeholder_riddle_1',
+
+    'riddle_2': 'placeholder_riddle_2',
+
+    'riddle_3': 'placeholder_riddle_3',
+    
+    'riddle_4': 'placeholder_riddle_4',
 
 }
 
