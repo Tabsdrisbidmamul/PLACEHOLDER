@@ -16,3 +16,11 @@ def print_dialogue(dialogue):
     print()
     print(dialogue.upper())
     print()
+    
+def move(direction):
+     if direction in rooms[exits]:
+            return rooms[exits[direction]]["name"]
+ 
+        
+            
+        
