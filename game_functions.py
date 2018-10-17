@@ -46,13 +46,13 @@ def print_inventory(inventory):
     
 def riddle_1():
     x= input("I'm tall when I'm young and I'm short when I'm old. What am I?")
-    if x="candle" or x="a candle":
+    if x == ("candle") or ("a candle"):
         take(x)
         
 def take(X):
     #take key and display:
     
-    print("")                                                              
+    print("")
     print("                      :sdmNNNds/`                                                                           ")
     print("                    -dMNho//oyNMm/                                                                          ")
     print("                   -NMd-      .yMM/                                                                         ")
@@ -82,7 +82,7 @@ def take(X):
     print("           `.     .::-`     -::`         -::.    `-:-`     ..       -----`    `.   .. .----`   -     :`   ")  
         
         
-                                                                                    
+
 def print_menu():
 
     print("You can:")
