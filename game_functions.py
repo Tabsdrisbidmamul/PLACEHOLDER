@@ -43,45 +43,43 @@ def print_inventory(inventory):
         store_string = store_string + value['name'] + ', '
     print('You have: ' + store_string)
 
-def take(X):
-    #take key and display:
     
 def riddle_1():
     x= input("I'm tall when I'm young and I'm short when I'm old. What am I?")
-    if x="candle" or "a candle":
+    if x="candle" or x="a candle":
         take(x)
         
 def take(X):
     #take key and display:
     
-    print(                                                                                                    
-              :sdmNNNds/`                                                                           
-            -dMNho//oyNMm/                                                                          
-           -NMd-      .yMM/                                                                         
-           oMM:        `MMh                                                                         
-     `:oyhhmMMs        :MMy                                                                         
-   `omMNdhhmMMm:    .-sNMd--`.oo:                                                                   
-   oMMh-   `:+.`sdyomMMMNdNMdmMMMoooooooooooo++++++oooooooooooooooooooooooooooooooooooooooo+-oso.   
-   dMM-        /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMh   
-   +MMh-`  `:+.`sdyomMMMNdNMdmMMMooooooooooooooooooooosssssssssssssssssssssssssdMMMMMMmyssys/yhs-   
-    +mMNdhhmMMm:    .-sNMd--`.oo:                                         yyyyydMMMMMMmyyyyy`       
-     `:oyyymMMo        /MMs                                              `dNMMMMMMMMMMMMMMNd`       
-           sMM:        `MMh                                               /dMMMMMMMMMMMMMMd+`       
-           -NMd-      .hMM/                                              `MMMMNyyMMMMyyNMMMM.       
-            -dMNho//ohNMm/                                               `MMMMm  NMMM  dMMMM.       
-              :sdmNNNds/`                                                `mmmmh  dmmm  ymmmm`       
-        
-        
-        
-        
-                                                                                                     
-                                                                                                    
-`:`   :`  -/+/-   --    :`      `://:`   .://-  .//////.     `:.      `:   :` :////`--   --  s.     
- od` sy .do-.-sd` sy    N:    `yy:..:/  yh-..+m-`.-yh..`    +om+      /m -h+  mo--- -m: :m.  N-     
-  +dsy  sh     m/ sy    N:    +d  .--- :N`    sh   sy         d+      /Nsy`   my++:  .m+m.   N-     
-   sd   sh     N/ sy    N:    +m  .-od :N`    yy   sy         d+      /m:d/   m+``    -M-    m.     
-   oh   .ds:-/hs  -m+-:sh      sh+::yd  sh/-:sh`   sy       -:ds:`    /m `sh. ms:::`  .M`   `o.     
-   `.     .::-`     -::`         -::.    `-:-`     ..       -----`    `.   .. .----`   -     :`     
+    print("                                                                                                    
+    print("                      :sdmNNNds/`                                                                           ")
+    print("                    -dMNho//oyNMm/                                                                          ")
+    print("                   -NMd-      .yMM/                                                                         ")
+    print("                   oMM:        `MMh                                                                         ")
+    print("             `:oyhhmMMs        :MMy                                                                         ")
+    print("           `omMNdhhmMMm:    .-sNMd--`.oo:                                                                   ")
+    print("           oMMh-   `:+.`sdyomMMMNdNMdmMMMoooooooooooo++++++oooooooooooooooooooooooooooooooooooooooo+-oso.   ")
+    print("           dMM-        /MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMMMh   ")
+    print("           +MMh-`  `:+.`sdyomMMMNdNMdmMMMooooooooooooooooooooosssssssssssssssssssssssssdMMMMMMmyssys/yhs-   ")
+    print("            +mMNdhhmMMm:    .-sNMd--`.oo:                                         yyyyydMMMMMMmyyyyy`       ")
+    print("             `:oyyymMMo        /MMs                                              `dNMMMMMMMMMMMMMMNd`       ")
+    print("                   sMM:        `MMh                                               /dMMMMMMMMMMMMMMd+`       ")
+    print("                   -NMd-      .hMM/                                              `MMMMNyyMMMMyyNMMMM.       ")
+    print("                    -dMNho//ohNMm/                                               `MMMMm  NMMM  dMMMM.       ")
+    print("                      :sdmNNNds/`                                                `mmmmh  dmmm  ymmmm`       ")
+    print("")
+    print("    ")
+    print("   ")
+    print("   ")
+    print("                                                       ")                                        
+    print("                                                        ")                                       
+    print("        `:`   :`  -/+/-   --    :`      `://:`   .://-  .//////.     `:.      `:   :` :////`--   --  s.   ")  
+    print("         od` sy .do-.-sd` sy    N:    `yy:..:/  yh-..+m-`.-yh..`    +om+      /m -h+  mo--- -m: :m.  N-    ") 
+    print("          +dsy  sh     m/ sy    N:    +d  .--- :N`    sh   sy         d+      /Nsy`   my++:  .m+m.   N-   ")  
+    print("           sd   sh     N/ sy    N:    +m  .-od :N`    yy   sy         d+      /m:d/   m+``    -M-    m.    ") 
+    print("           oh   .ds:-/hs  -m+-:sh      sh+::yd  sh/-:sh`   sy       -:ds:`    /m `sh. ms:::`  .M`   `o.     ")
+    print("           `.     .::-`     -::`         -::.    `-:-`     ..       -----`    `.   .. .----`   -     :`   ")  
         
         
         
